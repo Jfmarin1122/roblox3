@@ -189,6 +189,17 @@ h1 {
     animation: pulse 1.5s infinite;
 }
 
+.oculto {
+    display: none;
+}
+
+.mensaje-exito {
+    color: green; /* Color del texto */
+    font-size: 1.5em; /* Tamaño de fuente */
+    margin-top: 20px; /* Margen superior */
+    text-align: center; /* Centrar texto */
+}
+
 /* Animación de pulso para el logo */
 @keyframes pulse {
     0% {
