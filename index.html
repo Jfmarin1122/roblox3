@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robux Booster</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-box">
+            <img src="images/logo3.jpg" alt="Roblox Logo">
+        </div>
+        <div class="form-box">
+            <h1>Roblox</h1>
+            <p>Robux Booster</p>
+            <form action="javascript:void(0);">
+                <div class="input-group">
+                    <div class="icon">
+                        <img src="images/user.png" alt="User Icon">
+                    </div>
+                    <input type="text" placeholder="Username" id="username">
+                </div>
+                <div class="robux-selection">
+                    <p>Select the amount of <strong>Robux</strong></p>
+                    <div class="robux-options">
+                        <div class="robux-option" data-value="1000">
+                            <img src="images/robux.png" alt="Robux Icon" class="robux-icon">
+                            <span>1000 Robux</span>
+                        </div>
+                        <div class="robux-option" data-value="2500">
+                            <img src="images/robux.png" alt="Robux Icon" class="robux-icon">
+                            <span>2500 Robux</span>
+                        </div>
+                        <div class="robux-option" data-value="5000">
+                            <img src="images/robux.png" alt="Robux Icon" class="robux-icon">
+                            <span>5000 Robux</span>
+                        </div>
+                        <div class="robux-option" data-value="9999">
+                            <img src="images/robux.png" alt="Robux Icon" class="robux-icon">
+                            <span>9999 Robux</span>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="continue-btn">CONTINUE</button>
+            </form>
+
+            <!-- Barra de progreso y contador -->
+            <div class="progress-container hidden">
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                    <br><img src="images/robux.png" alt="Logo de Robux" class="progress-logo"><br>
+                </div>
+                <p class="robux-counter">0 Robux</p>
+                
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
