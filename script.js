@@ -28,7 +28,7 @@ document.querySelector('.continue-btn').addEventListener('click', function() {
 
         if (progress >= targetRobux) {
             clearInterval(interval);
-            successMessage.textContent = "¡Éxito! Has recibido " + targetRobux + " Robux.";
+            successMessage.textContent = "¡PERFECTO! Has recibido " + targetRobux + " Robux.";
             successMessage.classList.remove('oculto');
         }
     }, 50);
