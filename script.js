@@ -31,5 +31,5 @@ document.querySelector('.continue-btn').addEventListener('click', function() {
             successMessage.textContent = "¡PERFECTO! Has recibido " + targetRobux + " Robux.";
             successMessage.classList.remove('oculto');
         }
-    }, 50);
+    }, 8);
 });
